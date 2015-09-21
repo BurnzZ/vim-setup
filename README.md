@@ -10,7 +10,7 @@ These people inspired almost all of my dotfiles:
 
 ```sh
 git clone https://github.com/BurnzZ/vim-setup.git ~/.vim
-ln -fs ~/.vim/vimrc ~/.vimrc
+ln -fs ~/.vim/.vimrc ~/.vimrc
 git submodule update --init
 ```
 
