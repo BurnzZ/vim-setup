@@ -34,7 +34,7 @@ set ttyfast                         " Optimize fast term connections. More Info:
 " scheme, gui, etc
 "-------------------
 
-colorscheme molokai
+colorscheme molokai                 " yeah yeah, I know. old habits die hard
 set t_Co=256
 set background=dark
 
