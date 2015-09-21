@@ -47,6 +47,10 @@ set background=dark
 " for plugins
 "-------------------
 
+" prevents pathogen from self sourcing,
+" since it's in the bundle folde
+let g:pathogen_disabled = ['pathogen'] 
+
 let g:notes_directories = ['~/notes/vim-notes']
 let g:notes_suffix = '.txt'
 
