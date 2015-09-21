@@ -3,14 +3,14 @@ Check out the rest of my dotfiles here:
 
 These people inspired almost all of my dotfiles:
 * [Paul Irish](https://github.com/paulirish/dotfiles)
+* [Cătălin Mariș](https://github.com/alrra/dotfiles)
+* [Tom Vincent](https://github.com/tlvince/vim-config)
 
 # Installation
 
-Make sure you had setup [Pathogen](https://github.com/tpope/vim-pathogen.git).
-
 ```sh
 git clone https://github.com/BurnzZ/vim-setup.git ~/.vim
-ln -s ~/.vim/vimrc ~/.vimrc
+ln -fs ~/.vim/vimrc ~/.vimrc
 git submodule update --init
 ```
 
