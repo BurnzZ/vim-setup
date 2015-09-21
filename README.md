@@ -1,6 +1,9 @@
 Check out the rest of my dotfiles here:
 [https://github.com/BurnzZ/dotfiles.git](https://github.com/BurnzZ/dotfiles.git)
 
+These people inspired almost all of my dotfiles:
+* [Paul Irish](https://github.com/paulirish/dotfiles)
+
 # Installation
 
 Make sure you had setup [Pathogen](https://github.com/tpope/vim-pathogen.git).
