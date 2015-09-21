@@ -34,15 +34,12 @@ set showcmd                         " display incomplete commands
 
 set encoding=utf-8
 set laststatus=2
-set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h10
 
 "-------------------
 " scheme, gui, etc
 "-------------------
 
 colorscheme molokai
-"colorscheme beekai
-"colorscheme PaperColor
 set t_Co=256
 set background=dark
 
