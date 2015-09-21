@@ -11,3 +11,8 @@ git submodule update --init
 
 You can update all plugins using:
 `git submodule foreach git pull origin master`
+
+---
+*slight* Issues
+-
+When using Vim versions below than *7.4.x*, the colorscheme `molokai` won't work.
