@@ -3,6 +3,8 @@ Check out the rest of my dotfiles here:
 
 # Installation
 
+Make sure you had setup [Pathogen](https://github.com/tpope/vim-pathogen.git).
+
 ```sh
 git clone https://github.com/BurnzZ/vim-setup.git ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
