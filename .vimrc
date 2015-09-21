@@ -1,7 +1,3 @@
-" github.com/BurnzZ/dotfiles
-" 
-" Mostly inspired by Paul Irish, alrra and Py People
-
 execute pathogen#infect()
 filetype plugin indent on
 syntax on
