@@ -10,7 +10,6 @@ set backspace=indent,eol,start      " allows backspace
 set nowrap							" prevents wrapping of texts
 set timeoutlen=50                   " prevents delay when leaving insert mode
 set laststatus=2                    " fix disappearance of vim-airline
-"set mouse=a                        " actually allows the use of mouse
 set title                           " shows the filename in the window title bar
 set showmode                        " shows the current mode
 set number                          " show line numbers
@@ -23,13 +22,13 @@ set showmatch                       " show the matching part of the pair for [] 
 set wildmenu                        " visual autocomplete for command menu
 set incsearch                       " search as chars are entered
 set hlsearch                        " highlight matches
-"set splitbelow                      " splits open below 
 set splitright                      " splits open on the right
 set ruler                           " always show the cursor position 
 set showcmd                         " display incomplete commands
-
-set encoding=utf-8
-set laststatus=2
+set noerrorbells                    " turnoff that annoying thing
+set laststatus=2                    " always show status line
+set encoding=utf-8                  " standardization and uniformity
+set ttyfast                         " Optimize fast term connections. More Info: http://vimdoc.sourceforge.net/htmldoc/options.html#'ttyfast'
 
 "-------------------
 " scheme, gui, etc
