@@ -46,8 +46,15 @@ set background=dark
 " since it's in the bundle folde
 let g:pathogen_disabled = ['pathogen'] 
 
+" for vim-notes
 let g:notes_directories = ['~/notes/vim-notes']
 let g:notes_suffix = '.txt'
+
+" for vim-indent-guides
+let g:indent_guides_guide_size = 1
+let g:indent_guides_auto_colors = 0
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#00005F ctermbg=17
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#5F005F ctermbg=53
 
 " show those dotfiles
 let NERDTreeShowHidden=1
