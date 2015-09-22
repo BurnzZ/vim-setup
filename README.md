@@ -11,6 +11,8 @@ These people inspired almost all of my dotfiles:
 ```sh
 git clone https://github.com/BurnzZ/vim-setup.git ~/.vim
 ln -fs ~/.vim/.vimrc ~/.vimrc
+
+cd ~/.vim
 git submodule update --init
 ```
 
