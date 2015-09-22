@@ -49,6 +49,9 @@ let g:pathogen_disabled = ['pathogen']
 let g:notes_directories = ['~/notes/vim-notes']
 let g:notes_suffix = '.txt'
 
+" show those dotfiles
+let NERDTreeShowHidden=1
+
 " vim-airline fonts fixes
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled=1
