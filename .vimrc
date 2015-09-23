@@ -43,7 +43,7 @@ set background=dark
 "-------------------
 
 " prevents pathogen from self sourcing,
-" since it's in the bundle folde
+" since it's in the bundle folder
 let g:pathogen_disabled = ['pathogen'] 
 
 " for vim-notes
