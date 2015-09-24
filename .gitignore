@@ -5,6 +5,17 @@
 .AppleDouble
 .LSOverride
 
+# This is for the csv.ivim
+doc/
+ftdetect/
+ftplugin/
+plugin/
+syntax/
+Makefile
+README
+todot.txt
+csv.vmb
+
 # Icon must end with two \r
 Icon
 
