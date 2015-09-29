@@ -25,6 +25,7 @@ set hlsearch                        " highlight matches
 set splitright                      " splits open on the right
 set ruler                           " always show the cursor position 
 set showcmd                         " display incomplete commands
+set ignorecase                      " turns off search case sensitivity
 set noerrorbells                    " turnoff that annoying thing
 set laststatus=2                    " always show status line
 set encoding=utf-8                  " standardization and uniformity
