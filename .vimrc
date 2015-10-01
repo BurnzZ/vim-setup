@@ -18,6 +18,7 @@ set autoindent                      " indent when moving to the next line while 
 set expandtab                       " expand tabs into spaces
 set shiftwidth=4                    " when using the >> or << commands, shift lines by 4 spaces
 set cursorline                      " show a visual line under the cursor's current line 
+"set cursorcolumn                    " show a vertical line to teh cursor
 set showmatch                       " show the matching part of the pair for [] {} and ()
 set wildmenu                        " visual autocomplete for command menu
 set incsearch                       " search as chars are entered
@@ -36,8 +37,11 @@ set ttyfast                         " Optimize fast term connections. More Info:
 "-------------------
 
 colorscheme molokai                 " yeah yeah, I know. old habits die hard
-set t_Co=256
 set background=dark
+
+if &term == "screen"
+    set t_Co=256
+endif
 
 "-------------------
 " for plugins
@@ -63,6 +67,9 @@ let NERDTreeShowHidden=1
 " vim-airline fonts fixes
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled=1
+
+" show tabnumber in vim-airline
+let g:airline#extensions#tabline#tab_nr_type = 1
 
 " for the vim-bookmarks
 let g:bookmark_save_per_working_dir=1 " Save bookmarks per working dir, the folder you opened vim from
