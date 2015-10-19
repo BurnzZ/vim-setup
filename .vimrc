@@ -18,7 +18,7 @@ set autoindent                      " indent when moving to the next line while 
 set expandtab                       " expand tabs into spaces
 set shiftwidth=4                    " when using the >> or << commands, shift lines by 4 spaces
 set cursorline                      " show a visual line under the cursor's current line 
-"set cursorcolumn                    " show a vertical line to teh cursor
+"set cursorcolumn                    " show a vertical line to the cursor
 set showmatch                       " show the matching part of the pair for [] {} and ()
 set wildmenu                        " visual autocomplete for command menu
 set incsearch                       " search as chars are entered
