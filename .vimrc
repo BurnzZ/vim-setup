@@ -85,6 +85,9 @@ set timeout timeoutlen=1500
 
 map <leader>t :NERDTreeToggle<CR>
 
+noremap <C-v><F3> :CSVTable<CR>
+noremap <C-v><F4> :CSVTabularize<CR>
+
 " for vim-easymotion
 map <Leader>l <Plug>(easymotion-lineforward)
 map <Leader>j <Plug>(easymotion-j)
@@ -114,3 +117,15 @@ imap <up> <nop>
 imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
+
+function XMLAlign()
+    let cursor = getpos('.')
+    let l:winview = winsaveview()
+    normal(ggVGd)
+    :read !python /home/user/kbernal/.vim/bundle/xml-aligner/xml-aligner.py %
+    normal(ggdd)
+    call setpos('.', cursor)
+    call winrestview(l:winview)
+endfunction
+
+map <leader>a :call XMLAlign()<CR>
