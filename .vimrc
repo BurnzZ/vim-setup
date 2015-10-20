@@ -121,6 +121,7 @@ imap <right> <nop>
 function XMLAlign()
     let cursor = getpos('.')
     let l:winview = winsaveview()
+    :w
     normal(ggVGd)
     :read !python ~/.vim/bundle/xml-aligner/xml-aligner.py %
     normal(ggdd)
