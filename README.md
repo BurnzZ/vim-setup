@@ -1,5 +1,6 @@
 Check out the rest of my dotfiles here:
-[https://github.com/BurnzZ/dotfiles](https://github.com/BurnzZ/dotfiles)
+* [https://github.com/BurnzZ/dotfiles](https://github.com/BurnzZ/dotfiles)
+* [https://github.com/BurnzZ/tmux-setup](https://github.com/BurnzZ/tmux-setup)
 
 These people inspired almost all of my dotfiles:
 * [Paul Irish](https://github.com/paulirish/dotfiles)
