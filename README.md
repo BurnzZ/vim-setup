@@ -22,6 +22,6 @@ You can update all plugins using:
 `git submodule foreach git pull origin master`
 
 
-*slight* Issues
+# Notes
 -
-When using Vim versions below than *7.4.x*, the colorscheme `molokai` won't work.
+Make sure you're using *Vim 7.4.x* or above.
