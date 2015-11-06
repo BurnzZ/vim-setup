@@ -23,5 +23,4 @@ You can update all plugins using:
 
 
 # Notes
--
 Make sure you're using *Vim 7.4.x* or above.
