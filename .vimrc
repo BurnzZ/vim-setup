@@ -77,8 +77,11 @@ let g:bookmark_save_per_working_dir=1 " Save bookmarks per working dir, the fold
 let g:bookmark_manage_per_buffer=1    " Save bookmarks when leaving a buffer, load when entering one
 let g:bookmark_auto_save=1            " enable auto save
 
+" for the vim-move prefix
+let g:move_key_modifier = 'S'
+
 "-------------------
-" Key Mappings
+" Key Mappings and Remaps
 "-------------------
 
 let mapleader=" "
