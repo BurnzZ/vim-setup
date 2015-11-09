@@ -7,6 +7,7 @@ These people inspired almost all of my dotfiles:
 * [Cătălin Mariș](https://github.com/alrra/dotfiles)
 * [Tom Vincent](https://github.com/tlvince/vim-config)
 * [Mathias Bynens](https://github.com/mathiasbynens/dotfiles)
+* [Martin Toma](https://github.com/martin-svk/dot-files)
 
 # Installation
 
