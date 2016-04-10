@@ -94,7 +94,8 @@ let g:multi_cursor_quit_key='<Esc>'        " default
 let mapleader=" "
 set timeout timeoutlen=1500
 
-map <leader>t :NERDTreeToggle<CR>
+map <leader>t :TagbarToggle<CR>
+map <leader>n :NERDTreeToggle<CR>
 
 noremap <C-v><F3> :CSVTable<CR>
 noremap <C-v><F4> :CSVTabularize<CR>
