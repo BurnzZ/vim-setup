@@ -32,6 +32,7 @@ set noerrorbells                    " turnoff that annoying thing
 set laststatus=2                    " always show status line
 set encoding=utf-8                  " standardization and uniformity
 set ttyfast                         " Optimize fast term connections. More Info: http://vimdoc.sourceforge.net/htmldoc/options.html#'ttyfast'
+set nostartofline                   " prevent jumping to startofline when line jumping
 
 "-------------------
 " scheme, gui, etc
@@ -96,8 +97,9 @@ set timeout timeoutlen=1500
 
 map <leader>t :NERDTreeToggle<CR>
 
-noremap <C-v><F3> :CSVTable<CR>
-noremap <C-v><F4> :CSVTabularize<CR>
+"nnoremap <leader>[ :CSVTable<CR>
+"noremap <leader>[ :call CSVTableFunc("CSVTable")<CR>
+"noremap <leader>] :call CSVTableFunc("CSVTabularize")<CR>
 
 " for vim-easymotion
 map <Leader>l <Plug>(easymotion-lineforward)
@@ -106,6 +108,8 @@ map <Leader>k <Plug>(easymotion-k)
 map <Leader>h <Plug>(easymotion-linebackward)
 nmap s <Plug>(easymotion-s)
 let g:EasyMotion_startofline = 0 " keep cursor column when JK motion
+
+map <leader>a :call XMLAlign()<CR>
 
 " Go to tab by number
 noremap <leader>1 1gt
@@ -131,6 +135,16 @@ nnoremap <silent> <Right> :vertical resize -1<CR>
 nnoremap <silent> <Up> :resize -1<CR>
 nnoremap <silent> <Down> :resize +1<CR>
 
+function CSVTableFunc(command)
+    let cursor = getpos('.')
+    let l:winview = winsaveview()
+    execute "normal! ggVG"
+    "normal! ggVG 
+    execute a:command
+    call setpos('.', cursor)
+    call winrestview(l:winview)
+endfunction
+
 function XMLAlign()
     let cursor = getpos('.')
     let l:winview = winsaveview()
@@ -141,5 +155,3 @@ function XMLAlign()
     call setpos('.', cursor)
     call winrestview(l:winview)
 endfunction
-
-map <leader>a :call XMLAlign()<CR>
