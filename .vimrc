@@ -36,6 +36,13 @@ set nostartofline                   " prevent jumping to startofline when line j
 "set iskeyword-=_                    " adds `underscore` to word delims
 
 "-------------------
+" Other vim configs
+"-------------------
+
+" Uses `js` highlighting for JSON files
+autocmd BufNewFile,BufRead *.json set ft=javascript
+
+"-------------------
 " scheme, gui, etc
 "-------------------
 
