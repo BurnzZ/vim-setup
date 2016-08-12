@@ -61,6 +61,3 @@
 [submodule "bundle/vim-troll-stopper"]
 	path = bundle/vim-troll-stopper
 	url = https://github.com/vim-utils/vim-troll-stopper
-[submodule "bundle/tagbar"]
-	path = bundle/tagbar
-	url = https://github.com/majutsushi/tagbar.git
