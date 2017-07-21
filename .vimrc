@@ -106,9 +106,8 @@ set timeout timeoutlen=1500
 map <leader>t :TagbarToggle<CR>
 map <leader>n :NERDTreeToggle<CR>
 
-"nnoremap <leader>[ :CSVTable<CR>
-"noremap <leader>[ :call CSVTableFunc("CSVTable")<CR>
-"noremap <leader>] :call CSVTableFunc("CSVTabularize")<CR>
+" run current script
+nnoremap <leader>r :!%:p<CR>
 
 " for vim-easymotion
 map <Leader>l <Plug>(easymotion-lineforward)
