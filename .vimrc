@@ -95,6 +95,13 @@ let g:multi_cursor_prev_key='<C-S-p>'
 let g:multi_cursor_skip_key='<C-x>'        " default
 let g:multi_cursor_quit_key='<Esc>'        " default
 
+" for highlighting stuff in Golang (via vim-go)
+let g:go_highlight_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_operators = 1
+
 "-------------------
 " Key Mappings and Remaps
 "-------------------
