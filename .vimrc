@@ -1,6 +1,11 @@
 execute pathogen#infect()
 filetype plugin indent on
-syntax on
+
+"Explicitly turning syntax highlighting off, for a year?
+"Trying the premise of:
+"  - http://www.linusakesson.net/programming/syntaxhighlighting
+"  - https://groups.google.com/forum/#!msg/golang-nuts/hJHCAaiL0so/kG3BHV6QFfIJ
+syntax off
 
 "-------------------
 " usual vim stuff
