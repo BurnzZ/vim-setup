@@ -1,12 +1,6 @@
 execute pathogen#infect()
 filetype plugin indent on
 
-"Explicitly turning syntax highlighting off, for a year?
-"Trying the premise of:
-"  - http://www.linusakesson.net/programming/syntaxhighlighting
-"  - https://groups.google.com/forum/#!msg/golang-nuts/hJHCAaiL0so/kG3BHV6QFfIJ
-syntax off
-
 "-------------------
 " usual vim stuff
 "-------------------
@@ -51,9 +45,19 @@ autocmd BufNewFile,BufRead *.json set ft=javascript
 "-------------------
 " scheme, gui, etc
 "-------------------
+"
 
-colorscheme molokai                 " yeah yeah, I know. old habits die hard
-set background=dark
+"Explicitly turning syntax highlighting off, for a year?
+"Trying the premise of:
+"  - http://www.linusakesson.net/programming/syntaxhighlighting
+"  - https://groups.google.com/forum/#!msg/golang-nuts/hJHCAaiL0so/kG3BHV6QFfIJ
+"syntax off
+
+"Turns out I need to discern comments vs code.
+"Using this theme just for comments highlighting only.
+syntax on
+colorscheme nofrils-dark
+let g:nofrils_heavycomments=1
 
 set t_Co=256
 
