@@ -110,6 +110,7 @@ let g:go_highlight_fields = 1
 let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
 let g:go_highlight_operators = 1
+let g:go_list_type = "quickfix"  " makes sure that opened errors are shown only in quickfix
 
 "-------------------
 " Key Mappings and Remaps
@@ -157,6 +158,25 @@ nnoremap <silent> <Left> :vertical resize +1<CR>
 nnoremap <silent> <Right> :vertical resize -1<CR>
 nnoremap <silent> <Up> :resize -1<CR>
 nnoremap <silent> <Down> :resize +1<CR>
+
+" for vim-go
+map <C-n> :cnext<CR>
+map <C-m> :cprevious<CR>
+nnoremap <leader>x :cclose<CR>
+autocmd FileType go nmap <leader>b :<C-u>call <SID>build_go_files()<CR>
+autocmd FileType go nmap <leader>r <Plug>(go-run)
+autocmd FileType go nmap <Leader>i <Plug>(go-info)
+autocmd FileType go nmap <Leader>c <Plug>(go-coverage-toggle)
+
+" run :GoBuild or :GoTestCompile based on the go file
+function! s:build_go_files()
+  let l:file = expand('%')
+  if l:file =~# '^\f\+_test\.go$'
+    call go#test#Test(0, 1)
+  elseif l:file =~# '^\f\+\.go$'
+    call go#cmd#Build(0)
+  endif
+endfunction
 
 function CSVTableFunc(command)
     let cursor = getpos('.')
