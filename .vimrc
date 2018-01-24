@@ -56,8 +56,10 @@ autocmd BufNewFile,BufRead *.json set ft=javascript
 "Turns out I need to discern comments vs code.
 "Using this theme just for comments highlighting only.
 syntax on
-colorscheme nofrils-dark
-let g:nofrils_heavycomments=1
+"colorscheme nofrils-dark
+"let g:nofrils_heavycomments=1
+
+colorscheme molokai
 
 set t_Co=256
 
@@ -111,6 +113,9 @@ let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
 let g:go_highlight_operators = 1
 let g:go_list_type = "quickfix"  " makes sure that opened errors are shown only in quickfix
+
+" for ctrlp
+let g:ctrlp_custom_ignore = 'node_modules/*/*'
 
 "-------------------
 " Key Mappings and Remaps
