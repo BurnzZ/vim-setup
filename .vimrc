@@ -126,6 +126,7 @@ set timeout timeoutlen=1500
 
 map <leader>t :TagbarToggle<CR>
 map <leader>n :NERDTreeToggle<CR>
+map <leader>m :LivedownToggle<CR>
 
 " run current script
 nnoremap <leader>r :!%:p<CR>
