@@ -127,6 +127,7 @@ set timeout timeoutlen=1500
 map <leader>t :TagbarToggle<CR>
 map <leader>n :NERDTreeToggle<CR>
 map <leader>m :LivedownToggle<CR>
+map <leader>a :call XMLAlign()<CR>
 
 " run current script
 nnoremap <leader>r :!%:p<CR>
@@ -139,7 +140,8 @@ map <Leader>h <Plug>(easymotion-linebackward)
 nmap s <Plug>(easymotion-s)
 let g:EasyMotion_startofline = 0 " keep cursor column when JK motion
 
-map <leader>a :call XMLAlign()<CR>
+" turn on column ruler
+noremap <leader>c :set colorcolumn=80<CR>
 
 " Go to tab by number
 noremap <leader>1 1gt
