@@ -73,3 +73,6 @@
 [submodule "bundle/vim-closetag"]
 	path = bundle/vim-closetag
 	url = https://github.com/alvan/vim-closetag.git
+[submodule "bundle/auto-pairs"]
+	path = bundle/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs.git
