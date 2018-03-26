@@ -117,6 +117,9 @@ let g:go_list_type = "quickfix"  " makes sure that opened errors are shown only 
 " for ctrlp
 let g:ctrlp_custom_ignore = 'node_modules/*/*'
 
+" for vim-flake8
+let g:flake8_show_in_gutter=1
+
 "-------------------
 " Key Mappings and Remaps
 "-------------------
@@ -166,6 +169,9 @@ nnoremap <silent> <Left> :vertical resize +1<CR>
 nnoremap <silent> <Right> :vertical resize -1<CR>
 nnoremap <silent> <Up> :resize -1<CR>
 nnoremap <silent> <Down> :resize +1<CR>
+
+" for vim-flake8
+autocmd FileType python map <buffer> <Leader>f :call Flake8()<CR>
 
 " for vim-go
 map <C-n> :cnext<CR>
