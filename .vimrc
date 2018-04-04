@@ -115,7 +115,10 @@ let g:go_highlight_operators = 1
 let g:go_list_type = "quickfix"  " makes sure that opened errors are shown only in quickfix
 
 " for ctrlp
-let g:ctrlp_custom_ignore = 'node_modules/*/*'
+let g:ctrlp_custom_ignore = {
+        \ 'dir': 'node_modules/*/*',
+        \ 'file': '\v\.(pyc)$',
+    \ }
 
 " for vim-flake8
 let g:flake8_show_in_gutter=1
