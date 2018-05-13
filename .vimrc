@@ -183,8 +183,8 @@ nnoremap <silent> <Down> :resize +1<CR>
 autocmd FileType python map <buffer> <Leader>f :call Flake8()<CR>
 
 " for vim-go
-map <C-n> :cnext<CR>
-map <C-m> :cprevious<CR>
+map <leader>n :cnext<CR>
+map <leader>m :cprevious<CR>
 nnoremap <leader>x :cclose<CR>
 autocmd FileType go nmap <leader>b :<C-u>call <SID>build_go_files()<CR>
 autocmd FileType go nmap <leader>r <Plug>(go-run)
