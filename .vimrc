@@ -150,6 +150,7 @@ let g:EasyMotion_startofline = 0 " keep cursor column when JK motion
 map <leader>gs :Gstatus<CR>
 map <leader>gd :Gdiff<CR>
 map <leader>gb :Gblame<CR>
+map <leader>gl :Glog<CR>
 
 " turn on column ruler
 noremap <leader>c :set colorcolumn=80<CR>
