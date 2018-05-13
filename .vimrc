@@ -146,6 +146,11 @@ map <Leader>h <Plug>(easymotion-linebackward)
 nmap s <Plug>(easymotion-s)
 let g:EasyMotion_startofline = 0 " keep cursor column when JK motion
 
+" vim-fugitive
+map <leader>gs :Gstatus<CR>
+map <leader>gd :Gdiff<CR>
+map <leader>gb :Gblame<CR>
+
 " turn on column ruler
 noremap <leader>c :set colorcolumn=80<CR>
 
