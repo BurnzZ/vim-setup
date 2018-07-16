@@ -32,7 +32,7 @@ set laststatus=2                    " always show status line
 set encoding=utf-8                  " standardization and uniformity
 set ttyfast                         " Optimize fast term connections. More Info: http://vimdoc.sourceforge.net/htmldoc/options.html#'ttyfast'
 set nostartofline                   " prevent jumping to startofline when line jumping
-set iskeyword-=_                    " adds `underscore` to word delims
+"set iskeyword-=_                    " adds `underscore` to word delims
 set autowrite                       " save the file when buffer is switched 
 
 "-------------------
