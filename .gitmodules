@@ -52,18 +52,12 @@
 [submodule "bundle/vim-move"]
 	path = bundle/vim-move
 	url = https://github.com/matze/vim-move.git
-[submodule "bundle/vim-multiple-cursors"]
-	path = bundle/vim-multiple-cursors
-	url = https://github.com/terryma/vim-multiple-cursors.git
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
 [submodule "bundle/vim-troll-stopper"]
 	path = bundle/vim-troll-stopper
 	url = https://github.com/vim-utils/vim-troll-stopper
-[submodule "bundle/typescript-vim"]
-	path = bundle/typescript-vim
-	url = https://github.com/leafgarland/typescript-vim.git
 [submodule "bundle/editorconfig-vim"]
 	path = bundle/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
