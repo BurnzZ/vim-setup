@@ -46,6 +46,8 @@ autocmd BufNewFile,BufRead *.json set ft=javascript
 " scheme, gui, etc
 "-------------------
 "
+syntax on
+set t_Co=256
 
 "Explicitly turning syntax highlighting off, for a year?
 "Trying the premise of:
@@ -55,13 +57,26 @@ autocmd BufNewFile,BufRead *.json set ft=javascript
 
 "Turns out I need to discern comments vs code.
 "Using this theme just for comments highlighting only.
-syntax on
 "colorscheme nofrils-dark
 "let g:nofrils_heavycomments=1
 
 colorscheme molokai
 
-set t_Co=256
+let g:theme_dark = 0
+
+function ToggleTheme()
+  if (g:theme_dark)
+    set background=dark
+    colorscheme molokai
+    let g:theme_dark = 0
+  else
+    colorscheme solarized
+    set background=light
+    let g:theme_dark = 1
+  endif
+endfunc
+
+map <leader>w :call ToggleTheme()<CR>
 
 "-------------------
 " for plugins
