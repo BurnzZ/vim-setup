@@ -194,6 +194,10 @@ nnoremap <silent> <Right> :vertical resize -1<CR>
 nnoremap <silent> <Up> :resize -1<CR>
 nnoremap <silent> <Down> :resize +1<CR>
 
+" prevents cursor/screen from jumping around when
+" a word is highlighted using `*` command.
+nnoremap * :keepjumps normal! mi*`i<CR>`
+
 " for vim-flake8
 autocmd FileType python map <buffer> <Leader>f :call Flake8()<CR>
 
