@@ -138,6 +138,9 @@ let g:ctrlp_custom_ignore = {
 " for vim-flake8
 let g:flake8_show_in_gutter=1
 
+" for python-sntax
+let g:python_highlight_all=1
+
 "-------------------
 " Key Mappings and Remaps
 "-------------------
