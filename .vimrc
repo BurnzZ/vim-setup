@@ -131,7 +131,7 @@ let g:go_list_type = "quickfix"  " makes sure that opened errors are shown only 
 
 " for ctrlp
 let g:ctrlp_custom_ignore = {
-        \ 'dir': 'node_modules$\|bower_components$\|build$\|env',
+        \ 'dir': 'node_modules$\|bower_components$\|build$\|env\\*\|env2.7\\*$',
         \ 'file': '\v\.(pyc)$',
     \ }
 
