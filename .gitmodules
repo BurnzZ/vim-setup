@@ -85,3 +85,6 @@
 [submodule "bundle/python-syntax"]
 	path = bundle/python-syntax
 	url = https://github.com/vim-python/python-syntax.git
+[submodule "bundle/vim-livedown"]
+	path = bundle/vim-livedown
+	url = git://github.com/shime/vim-livedown.git
