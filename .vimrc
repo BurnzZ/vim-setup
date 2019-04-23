@@ -60,8 +60,8 @@ set t_Co=256
 "colorscheme nofrils-dark
 "let g:nofrils_heavycomments=1
 
-colorscheme molokai
-
+colorscheme gruvbox
+set background=dark
 let g:theme_dark = 0
 
 function ToggleTheme()
