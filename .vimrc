@@ -131,9 +131,9 @@ let g:go_list_type = "quickfix"  " makes sure that opened errors are shown only 
 
 " for ctrlp
 let g:ctrlp_custom_ignore = {
-        \ 'dir': 'node_modules$\|bower_components$\|build$\|env\\*\|env2.7\\*$',
-        \ 'file': '\v\.(pyc)$',
-    \ }
+    \ 'dir': 'node_modules$\|bower_components$\|build$\|env\\*\|env2.7\\*$',
+    \ 'file': '\v\.(pyc)$',
+\ }
 
 " for vim-flake8
 let g:flake8_show_in_gutter=1
