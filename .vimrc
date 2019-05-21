@@ -223,16 +223,6 @@ function! s:build_go_files()
   endif
 endfunction
 
-function CSVTableFunc(command)
-    let cursor = getpos('.')
-    let l:winview = winsaveview()
-    execute "normal! ggVG"
-    "normal! ggVG 
-    execute a:command
-    call setpos('.', cursor)
-    call winrestview(l:winview)
-endfunction
-
 function XMLAlign()
     let cursor = getpos('.')
     let l:winview = winsaveview()
