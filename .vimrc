@@ -49,17 +49,6 @@ autocmd BufNewFile,BufRead *.json set ft=javascript
 syntax on
 set t_Co=256
 
-"Explicitly turning syntax highlighting off, for a year?
-"Trying the premise of:
-"  - http://www.linusakesson.net/programming/syntaxhighlighting
-"  - https://groups.google.com/forum/#!msg/golang-nuts/hJHCAaiL0so/kG3BHV6QFfIJ
-"syntax off
-
-"Turns out I need to discern comments vs code.
-"Using this theme just for comments highlighting only.
-"colorscheme nofrils-dark
-"let g:nofrils_heavycomments=1
-
 colorscheme gruvbox
 set background=dark
 let g:theme_dark = 0
