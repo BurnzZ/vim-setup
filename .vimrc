@@ -75,10 +75,6 @@ map <leader>w :call ToggleTheme()<CR>
 " since it's in the bundle folder
 let g:pathogen_disabled = ['pathogen'] 
 
-" for vim-notes
-let g:notes_directories = ['~/notes/vim-notes']
-let g:notes_suffix = '.txt'
-
 " for vim-indent-guides
 let g:indent_guides_guide_size = 1
 let g:indent_guides_auto_colors = 0
