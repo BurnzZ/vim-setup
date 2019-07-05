@@ -85,11 +85,11 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#5F005F ctermbg=53
 let NERDTreeShowHidden=1
 
 " vim-airline fonts fixes
-let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled=1
 
 " show tabnumber in vim-airline
-let g:airline#extensions#tabline#tab_nr_type = 1
+let g:airline#extensions#tabline#tab_nr_type=1
 
 " for the vim-bookmarks
 let g:bookmark_save_per_working_dir=1 " Save bookmarks per working dir, the folder you opened vim from
@@ -97,10 +97,10 @@ let g:bookmark_manage_per_buffer=1    " Save bookmarks when leaving a buffer, lo
 let g:bookmark_auto_save=1            " enable auto save
 
 " for the vim-move prefix
-let g:move_key_modifier = 'S'
+let g:move_key_modifier='S'
 
 " for the vim-multiple-cursors
-let g:multi_cursor_use_default_mapping = 0 " allow remapping
+let g:multi_cursor_use_default_mapping=0 " allow remapping
 let g:multi_cursor_next_key='<C-n>'        " default
 let g:multi_cursor_prev_key='<C-S-p>'
 let g:multi_cursor_skip_key='<C-x>'        " default
