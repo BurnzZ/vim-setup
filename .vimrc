@@ -138,9 +138,6 @@ map <leader>n :NERDTreeToggle<CR>
 map <leader>m :LivedownToggle<CR>
 map <leader>a :call XMLAlign()<CR>
 
-" run current script
-nnoremap <leader>r :!%:p<CR>
-
 " for vim-easymotion
 map <Leader>l <Plug>(easymotion-lineforward)
 map <Leader>j <Plug>(easymotion-j)
