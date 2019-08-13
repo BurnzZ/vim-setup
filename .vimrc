@@ -45,7 +45,7 @@ autocmd BufNewFile,BufRead *.json set ft=javascript
 "-------------------
 " scheme, gui, etc
 "-------------------
-"
+
 syntax on
 set t_Co=256
 
