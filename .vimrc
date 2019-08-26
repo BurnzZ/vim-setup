@@ -21,7 +21,7 @@ set cursorline                      " show a visual line under the cursor's curr
 set showmatch                       " show the matching part of the pair for [] {} and ()
 set wildmenu                        " visual autocomplete for command menu
 set wildmode=list:longest           " autcomplete until there's ambiguity
-set incsearch                       " search as chars are entered
+"set incsearch                       " search as chars are entered
 set hlsearch                        " highlight matches
 set splitright                      " splits open on the right
 set ruler                           " always show the cursor position 
