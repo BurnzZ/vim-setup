@@ -65,7 +65,7 @@ function ToggleTheme()
   endif
 endfunc
 
-map <leader>w :call ToggleTheme()<CR>
+"map <leader>w :call ToggleTheme()<CR>
 
 "-------------------
 " for plugins
