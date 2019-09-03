@@ -196,5 +196,3 @@ function XMLAlign()
     call setpos('.', cursor)
     call winrestview(l:winview)
 endfunction
-
-source ~/.vimrc.extra
