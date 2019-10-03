@@ -24,6 +24,7 @@ set wildmode=list:longest           " autcomplete until there's ambiguity
 "set incsearch                       " search as chars are entered
 set hlsearch                        " highlight matches
 set splitright                      " splits open on the right
+set splitbelow                      " split window goes below
 set ruler                           " always show the cursor position 
 set showcmd                         " display incomplete commands
 set ignorecase                      " turns off search case sensitivity
