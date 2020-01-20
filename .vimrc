@@ -156,6 +156,9 @@ map <leader>gl :Glog<CR>
 " turn on column ruler
 noremap <leader>c :set colorcolumn=80<CR>
 
+" Use Black
+noremap <leader>b :Black<CR>
+
 " Go to tab by number
 noremap <leader>1 1gt
 noremap <leader>2 2gt
