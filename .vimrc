@@ -135,7 +135,6 @@ let mapleader=" "
 set timeout timeoutlen=1500
 
 map <leader>t :TagbarToggle<CR>
-map <leader>n :NERDTreeToggle<CR>
 map <leader>m :LivedownToggle<CR>
 map <leader>a :call XMLAlign()<CR>
 
