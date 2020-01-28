@@ -100,13 +100,6 @@ let g:bookmark_auto_save=1            " enable auto save
 " for the vim-move prefix
 let g:move_key_modifier='S'
 
-" for the vim-multiple-cursors
-let g:multi_cursor_use_default_mapping=0 " allow remapping
-let g:multi_cursor_next_key='<C-n>'      " default
-let g:multi_cursor_prev_key='<C-S-p>'
-let g:multi_cursor_skip_key='<C-x>'      " default
-let g:multi_cursor_quit_key='<Esc>'      " default
-
 " for ctrlp
 let g:ctrlp_custom_ignore = {
     \ 'dir': 'node_modules$\|bower_components$\|build$\|env\\*\|env2.7\\*$',
