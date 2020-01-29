@@ -106,11 +106,20 @@ let g:ctrlp_custom_ignore = {
     \ 'file': '\v\.(pyc)$',
 \ }
 
-" for vim-flake8
-let g:flake8_show_in_gutter=1
+" for python-mode
+let g:pymode_warnings = 1  " Turn off plugin's warnings.
+let g:pymode_virtualenv = 0  " Disable venv
+let g:pymode_breakpoint_bind = '<leader>p'  " mental note: p for pdb
+let g:pymode_trim_whitespaces = 1  " trim on save
+let g:pymode_options = 1
+let g:pymode_options_colorcolumn = 1  " indicator for column width
+let g:pymode_lint = 0  " don't use linting as I use black heavily
+let g:pymode_motion = 1  " turn on new movements
 
-" for python-sntax
-let g:python_highlight_all=1
+" python-mode's support for docs
+let g:pymode_doc = 1
+let g:pymode_doc_bind = 'P'
+
 
 "-------------------
 " Key Mappings and Remaps
