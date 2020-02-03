@@ -76,3 +76,6 @@
 [submodule "bundle/python-mode"]
 	path = bundle/python-mode
 	url = https://github.com/python-mode/python-mode.git
+[submodule "bundle/SimplylFold"]
+	path = bundle/SimplylFold
+	url = https://github.com/tmhedberg/SimpylFold.git
