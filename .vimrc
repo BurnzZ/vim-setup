@@ -146,6 +146,9 @@ map <leader>gd :Gdiff<CR>
 map <leader>gb :Gblame<CR>
 map <leader>gl :Glog<CR>
 
+" turn on column ruler
+noremap <leader>c :set colorcolumn=80<CR>
+
 " Use Black
 noremap <leader>b :Black<CR>
 
