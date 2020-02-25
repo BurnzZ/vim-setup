@@ -82,9 +82,6 @@ let g:indent_guides_auto_colors = 0
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#00005F ctermbg=17
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#5F005F ctermbg=53
 
-" show those dotfiles
-let NERDTreeShowHidden=1
-
 " vim-airline fonts fixes
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled=1
