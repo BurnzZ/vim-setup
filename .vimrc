@@ -35,8 +35,8 @@ set ttyfast                         " Optimize fast term connections. More Info:
 set nostartofline                   " prevent jumping to startofline when line jumping
 "set iskeyword-=_                    " adds `underscore` to word delims
 set autowrite                       " save the file when buffer is switched 
-set foldmethod=indent               " fold the code to easily see classes and functions/methods
-set foldnestmax=2                   " increase folding capacity
+"set foldmethod=indent               " fold the code to easily see classes and functions/methods
+"set foldnestmax=2                   " increase folding capacity
 
 "-------------------
 " Other vim configs
