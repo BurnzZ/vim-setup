@@ -16,6 +16,9 @@ README
 todot.txt
 csv.vmb
 
+# For the black.vim
+black/
+
 # Icon must end with two \r
 Icon
 
