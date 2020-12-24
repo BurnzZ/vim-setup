@@ -119,6 +119,9 @@ let g:pymode_motion = 1  " turn on new movements
 let g:pymode_doc = 1
 let g:pymode_doc_bind = 'P'
 
+" don't replace the strings' quotes
+let g:black_skip_string_normalization = 1
+
 
 "-------------------
 " Key Mappings and Remaps
