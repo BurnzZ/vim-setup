@@ -37,6 +37,7 @@ set nostartofline                   " prevent jumping to startofline when line j
 set autowrite                       " save the file when buffer is switched 
 "set foldmethod=indent               " fold the code to easily see classes and functions/methods
 "set foldnestmax=2                   " increase folding capacity
+set directory^=$HOME/.vimswaps/tmp// " put all of the .swap files in one directory to keep things clean   
 
 "-------------------
 " Other vim configs
