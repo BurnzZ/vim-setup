@@ -131,6 +131,10 @@ let g:black_skip_string_normalization = 1
 let mapleader=" "
 set timeout timeoutlen=1500
 
+" turn off auto inc/dec of numbers to prevent messing with tmux
+map <C-a> <Nop>
+map <C-x> <Nop>
+
 map <leader>t :TagbarToggle<CR>
 map <leader>m :LivedownToggle<CR>
 map <leader>a :call XMLAlign()<CR>
