@@ -147,6 +147,9 @@ map <Leader>h <Plug>(easymotion-linebackward)
 nmap s <Plug>(easymotion-s)
 let g:EasyMotion_startofline = 0 " keep cursor column when JK motion
 
+
+map <Leader>e :%!python -m json.tool<CR>
+
 " vim-fugitive
 map <leader>gs :Gstatus<CR>
 map <leader>gd :Gdiff<CR>
