@@ -48,6 +48,7 @@ autocmd BufNewFile,BufRead *.json set ft=javascript
 
 " For YAML files
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+set foldlevelstart=20  " prevent YAML files that are folded when opened
 
 "-------------------
 " scheme, gui, etc
