@@ -96,6 +96,10 @@ let g:airline#extensions#tabline#enabled=1
 " show tabnumber in vim-airline
 let g:airline#extensions#tabline#tab_nr_type=1
 
+" disable the stuff on the right in vim-airline which takes up space
+let g:airline#extensions#tabline#show_buffers=0
+let g:airline#extensions#tabline#show_splits=0
+
 " for the vim-bookmarks
 let g:bookmark_save_per_working_dir=1 " Save bookmarks per working dir, the folder you opened vim from
 let g:bookmark_manage_per_buffer=1    " Save bookmarks when leaving a buffer, load when entering one
