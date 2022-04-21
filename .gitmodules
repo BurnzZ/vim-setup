@@ -73,3 +73,6 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = git@github.com:preservim/tagbar.git
+[submodule "bundle/python-mode"]
+	path = bundle/python-mode
+	url = https://github.com/python-mode/python-mode.git
