@@ -123,6 +123,7 @@ let g:pymode_options = 1
 let g:pymode_options_colorcolumn = 1  " indicator for column width
 let g:pymode_lint = 0  " don't use linting as I use black heavily
 let g:pymode_motion = 1  " turn on new movements
+let g:pymode_rope = 0  " turn off rope
 
 " python-mode's support for docs
 let g:pymode_doc = 1
