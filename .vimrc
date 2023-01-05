@@ -1,3 +1,5 @@
+" vim-signify: disable temporarily since it's too slow to startup
+let g:pathogen_blacklist = ['vim-signify']
 execute pathogen#infect()
 filetype plugin indent on
 
@@ -107,6 +109,7 @@ let g:bookmark_auto_save=1            " enable auto save
 
 " for the vim-move prefix
 let g:move_key_modifier='S'
+let g:move_key_modifier_visualmode='S'
 
 " for ctrlp
 let g:ctrlp_custom_ignore = {
@@ -126,7 +129,7 @@ let g:pymode_motion = 1  " turn on new movements
 let g:pymode_rope = 0  " turn off rope
 
 " python-mode's support for docs
-let g:pymode_doc = 1
+let g:pymode_doc = 0
 let g:pymode_doc_bind = 'P'
 
 " don't replace the strings' quotes
@@ -161,7 +164,7 @@ map <Leader>e :%!python -m json.tool<CR>
 
 " vim-fugitive
 map <leader>gs :Gstatus<CR>
-map <leader>gd :Gdiff<CR>
+map <leader>gd :Gvdiffsplit<CR>
 map <leader>gb :Git blame<CR>
 map <leader>gl :0Glog<CR>
 
