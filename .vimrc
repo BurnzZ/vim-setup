@@ -1,5 +1,3 @@
-" vim-signify: disable temporarily since it's too slow to startup
-let g:pathogen_blacklist = ['vim-signify']
 execute pathogen#infect()
 filetype plugin indent on
 
