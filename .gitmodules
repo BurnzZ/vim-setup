@@ -52,18 +52,9 @@
 [submodule "bundle/vim-closetag"]
 	path = bundle/vim-closetag
 	url = https://github.com/alvan/vim-closetag.git
-[submodule "bundle/InstantRst"]
-	path = bundle/InstantRst
-	url = https://github.com/gu-fan/InstantRst.git
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule "bundle/vim-solarized"]
-	path = bundle/vim-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
-[submodule "bundle/vim-livedown"]
-	path = bundle/vim-livedown
-	url = git://github.com/shime/vim-livedown.git
 [submodule "bundle/vim-yaml-folds"]
 	path = bundle/vim-yaml-folds
 	url = https://github.com/pedrohdz/vim-yaml-folds
