@@ -1,6 +1,10 @@
 execute pathogen#infect()
 filetype plugin indent on
 
+call plug#begin()
+Plug 'psf/black', { 'branch': 'stable' }
+call plug#end()
+
 "-------------------
 " usual vim stuff
 "-------------------
@@ -116,6 +120,8 @@ let g:ctrlp_custom_ignore = {
 \ }
 
 " for python-mode
+let g:pymode_python = 'python3' " Turn off error in ODX
+let g:pymode_python='python3'
 let g:pymode_warnings = 1  " Turn off plugin's warnings.
 let g:pymode_virtualenv = 0  " Disable venv
 let g:pymode_breakpoint_bind = '<leader>p'  " mental note: p for pdb
