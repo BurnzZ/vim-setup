@@ -58,6 +58,3 @@
 [submodule "bundle/vim-yaml-folds"]
 	path = bundle/vim-yaml-folds
 	url = https://github.com/pedrohdz/vim-yaml-folds
-[submodule "bundle/python-mode"]
-	path = bundle/python-mode
-	url = https://github.com/python-mode/python-mode.git

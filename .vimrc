@@ -3,6 +3,7 @@ filetype plugin indent on
 
 call plug#begin()
 Plug 'psf/black', { 'branch': 'stable' }
+Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 call plug#end()
 
 "-------------------
