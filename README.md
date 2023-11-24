@@ -22,6 +22,8 @@ git submodule update --init
 You can update all plugins using:
 `git submodule foreach git pull origin master`
 
+Open vim and run: `:PlugInstall`.
+
 
 # Notes
 Make sure you're using *Vim 7.4.x* or above.
