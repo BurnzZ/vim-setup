@@ -115,8 +115,9 @@ let g:move_key_modifier='S'
 let g:move_key_modifier_visualmode='S'
 
 " for ctrlp
+let g:ctrlp_show_hidden=1
 let g:ctrlp_custom_ignore = {
-    \ 'dir': 'node_modules$\|bower_components$\|build$\|env\\*\|env2.7\\*$',
+    \ 'dir': 'node_modules$\|venv$\|build$\|env\\*\|.tox$|.mypy_cache$|\\*$',
     \ 'file': '\v\.(pyc)$',
 \ }
 
